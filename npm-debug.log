@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tkrone/.nvm/v0.11.14/bin/node',
+1 verbose cli   '/Users/tkrone/.nvm/v0.11.14/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/tkrone/Documents/Programming/CodingHouse/Node/BroUps',
+5 verbose install   [ 'express',
+5 verbose install     'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'debug',
+5 verbose install     'ejs' ] ]
+6 info preinstall BroUps@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express@~4.9.0', null ]
+9 verbose cache add spec="express@~4.9.0" args=["express@~4.9.0",null]
+10 verbose parsed spec { raw: 'express@~4.9.0',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'express',
+10 verbose parsed spec   rawSpec: '~4.9.0',
+10 verbose parsed spec   spec: '>=4.9.0 <4.10.0',
+10 verbose parsed spec   type: 'range' }
+11 verbose cache add [ 'body-parser@~1.8.1', null ]
+12 verbose cache add spec="body-parser@~1.8.1" args=["body-parser@~1.8.1",null]
+13 verbose parsed spec { raw: 'body-parser@~1.8.1',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'body-parser',
+13 verbose parsed spec   rawSpec: '~1.8.1',
+13 verbose parsed spec   spec: '>=1.8.1 <1.9.0',
+13 verbose parsed spec   type: 'range' }
+14 verbose cache add [ 'cookie-parser@~1.3.3', null ]
+15 verbose cache add spec="cookie-parser@~1.3.3" args=["cookie-parser@~1.3.3",null]
+16 verbose parsed spec { raw: 'cookie-parser@~1.3.3',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'cookie-parser',
+16 verbose parsed spec   rawSpec: '~1.3.3',
+16 verbose parsed spec   spec: '>=1.3.3 <1.4.0',
+16 verbose parsed spec   type: 'range' }
+17 verbose cache add [ 'morgan@~1.3.0', null ]
+18 verbose cache add spec="morgan@~1.3.0" args=["morgan@~1.3.0",null]
+19 verbose parsed spec { raw: 'morgan@~1.3.0',
+19 verbose parsed spec   scope: null,
+19 verbose parsed spec   name: 'morgan',
+19 verbose parsed spec   rawSpec: '~1.3.0',
+19 verbose parsed spec   spec: '>=1.3.0 <1.4.0',
+19 verbose parsed spec   type: 'range' }
+20 verbose cache add [ 'serve-favicon@~2.1.3', null ]
+21 verbose cache add spec="serve-favicon@~2.1.3" args=["serve-favicon@~2.1.3",null]
+22 verbose parsed spec { raw: 'serve-favicon@~2.1.3',
+22 verbose parsed spec   scope: null,
+22 verbose parsed spec   name: 'serve-favicon',
+22 verbose parsed spec   rawSpec: '~2.1.3',
+22 verbose parsed spec   spec: '>=2.1.3 <2.2.0',
+22 verbose parsed spec   type: 'range' }
+23 verbose cache add [ 'debug@~2.0.0', null ]
+24 verbose cache add spec="debug@~2.0.0" args=["debug@~2.0.0",null]
+25 verbose parsed spec { raw: 'debug@~2.0.0',
+25 verbose parsed spec   scope: null,
+25 verbose parsed spec   name: 'debug',
+25 verbose parsed spec   rawSpec: '~2.0.0',
+25 verbose parsed spec   spec: '>=2.0.0 <2.1.0',
+25 verbose parsed spec   type: 'range' }
+26 verbose cache add [ 'ejs@~0.8.5', null ]
+27 verbose cache add spec="ejs@~0.8.5" args=["ejs@~0.8.5",null]
+28 verbose parsed spec { raw: 'ejs@~0.8.5',
+28 verbose parsed spec   scope: null,
+28 verbose parsed spec   name: 'ejs',
+28 verbose parsed spec   rawSpec: '~0.8.5',
+28 verbose parsed spec   spec: '>=0.8.5 <0.9.0',
+28 verbose parsed spec   type: 'range' }
+29 verbose parsed spec { raw: 'express@~4.9.0',
+29 verbose parsed spec   scope: null,
+29 verbose parsed spec   name: 'express',
+29 verbose parsed spec   rawSpec: '~4.9.0',
+29 verbose parsed spec   spec: '>=4.9.0 <4.10.0',
+29 verbose parsed spec   type: 'range' }
+30 verbose addNamed [ 'express', '>=4.9.0 <4.10.0' ]
+31 verbose addNamed [ null, '>=4.9.0 <4.10.0' ]
+32 verbose parsed spec { raw: 'body-parser@~1.8.1',
+32 verbose parsed spec   scope: null,
+32 verbose parsed spec   name: 'body-parser',
+32 verbose parsed spec   rawSpec: '~1.8.1',
+32 verbose parsed spec   spec: '>=1.8.1 <1.9.0',
+32 verbose parsed spec   type: 'range' }
+33 verbose addNamed [ 'body-parser', '>=1.8.1 <1.9.0' ]
+34 verbose addNamed [ null, '>=1.8.1 <1.9.0' ]
+35 verbose parsed spec { raw: 'cookie-parser@~1.3.3',
+35 verbose parsed spec   scope: null,
+35 verbose parsed spec   name: 'cookie-parser',
+35 verbose parsed spec   rawSpec: '~1.3.3',
+35 verbose parsed spec   spec: '>=1.3.3 <1.4.0',
+35 verbose parsed spec   type: 'range' }
+36 verbose addNamed [ 'cookie-parser', '>=1.3.3 <1.4.0' ]
+37 verbose addNamed [ null, '>=1.3.3 <1.4.0' ]
+38 verbose parsed spec { raw: 'morgan@~1.3.0',
+38 verbose parsed spec   scope: null,
+38 verbose parsed spec   name: 'morgan',
+38 verbose parsed spec   rawSpec: '~1.3.0',
+38 verbose parsed spec   spec: '>=1.3.0 <1.4.0',
+38 verbose parsed spec   type: 'range' }
+39 verbose addNamed [ 'morgan', '>=1.3.0 <1.4.0' ]
+40 verbose addNamed [ null, '>=1.3.0 <1.4.0' ]
+41 verbose parsed spec { raw: 'serve-favicon@~2.1.3',
+41 verbose parsed spec   scope: null,
+41 verbose parsed spec   name: 'serve-favicon',
+41 verbose parsed spec   rawSpec: '~2.1.3',
+41 verbose parsed spec   spec: '>=2.1.3 <2.2.0',
+41 verbose parsed spec   type: 'range' }
+42 verbose addNamed [ 'serve-favicon', '>=2.1.3 <2.2.0' ]
+43 verbose addNamed [ null, '>=2.1.3 <2.2.0' ]
+44 verbose parsed spec { raw: 'debug@~2.0.0',
+44 verbose parsed spec   scope: null,
+44 verbose parsed spec   name: 'debug',
+44 verbose parsed spec   rawSpec: '~2.0.0',
+44 verbose parsed spec   spec: '>=2.0.0 <2.1.0',
+44 verbose parsed spec   type: 'range' }
+45 verbose addNamed [ 'debug', '>=2.0.0 <2.1.0' ]
+46 verbose addNamed [ null, '>=2.0.0 <2.1.0' ]
+47 verbose parsed spec { raw: 'ejs@~0.8.5',
+47 verbose parsed spec   scope: null,
+47 verbose parsed spec   name: 'ejs',
+47 verbose parsed spec   rawSpec: '~0.8.5',
+47 verbose parsed spec   spec: '>=0.8.5 <0.9.0',
+47 verbose parsed spec   type: 'range' }
+48 verbose addNamed [ 'ejs', '>=0.8.5 <0.9.0' ]
+49 verbose addNamed [ null, '>=0.8.5 <0.9.0' ]
+50 silly lockFile f3b56342-express-4-9-0-4-10-0 express@>=4.9.0 <4.10.0
+51 verbose lock express@>=4.9.0 <4.10.0 /Users/tkrone/.npm/f3b56342-express-4-9-0-4-10-0.lock
+52 silly lockFile 907d1bb4-body-parser-1-8-1-1-9-0 body-parser@>=1.8.1 <1.9.0
+53 verbose lock body-parser@>=1.8.1 <1.9.0 /Users/tkrone/.npm/907d1bb4-body-parser-1-8-1-1-9-0.lock
+54 silly lockFile 9c8e0386-cookie-parser-1-3-3-1-4-0 cookie-parser@>=1.3.3 <1.4.0
+55 verbose lock cookie-parser@>=1.3.3 <1.4.0 /Users/tkrone/.npm/9c8e0386-cookie-parser-1-3-3-1-4-0.lock
+56 silly lockFile ae57dbe4-morgan-1-3-0-1-4-0 morgan@>=1.3.0 <1.4.0
+57 verbose lock morgan@>=1.3.0 <1.4.0 /Users/tkrone/.npm/ae57dbe4-morgan-1-3-0-1-4-0.lock
+58 silly lockFile 9f9354cd-serve-favicon-2-1-3-2-2-0 serve-favicon@>=2.1.3 <2.2.0
+59 verbose lock serve-favicon@>=2.1.3 <2.2.0 /Users/tkrone/.npm/9f9354cd-serve-favicon-2-1-3-2-2-0.lock
+60 silly lockFile f9cfd6d8-debug-2-0-0-2-1-0 debug@>=2.0.0 <2.1.0
+61 verbose lock debug@>=2.0.0 <2.1.0 /Users/tkrone/.npm/f9cfd6d8-debug-2-0-0-2-1-0.lock
+62 silly lockFile d0686627-ejs-0-8-5-0-9-0 ejs@>=0.8.5 <0.9.0
+63 verbose lock ejs@>=0.8.5 <0.9.0 /Users/tkrone/.npm/d0686627-ejs-0-8-5-0-9-0.lock
+64 silly lockFile f3b56342-express-4-9-0-4-10-0 express@>=4.9.0 <4.10.0
+65 verbose stack Error: Attempt to unlock express@>=4.9.0 <4.10.0, which hasn't been locked
+65 verbose stack     at unlock (/Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/lib/utils/locker.js:44:11)
+65 verbose stack     at cb (/Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+65 verbose stack     at /Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:41:20
+65 verbose stack     at /Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/lib/utils/locker.js:30:7
+65 verbose stack     at cb (/Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+65 verbose stack     at /Users/tkrone/.nvm/v0.11.14/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+65 verbose stack     at Object.oncomplete (fs.js:93:15)
+66 verbose cwd /Users/tkrone/Documents/Programming/CodingHouse/Node/BroUps
+67 error Darwin 14.0.0
+68 error argv "/Users/tkrone/.nvm/v0.11.14/bin/node" "/Users/tkrone/.nvm/v0.11.14/bin/npm" "install"
+69 error node v0.11.14
+70 error npm  v2.0.0
+71 error Attempt to unlock express@>=4.9.0 <4.10.0, which hasn't been locked
+72 error If you need help, you may report this error at:
+72 error     <http://github.com/npm/npm/issues>
+73 verbose exit [ 1, true ]
