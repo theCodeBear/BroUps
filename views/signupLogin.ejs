@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' >
+    <link rel="stylesheet" href="/stylesheets/signupLogin.css">
+    <script src="//www.parsecdn.com/js/parse-1.3.1.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="btn-group" role="group" aria-label="Sign or login to website">
+        <button type="button" id="signup" class="btn btn-default down" disabled>Sign Up</button>
+        <button type="button" id="login" class="btn btn-default">Login</button>
+      </div>
+      
+      <!-- Sign Up Form -->
+      <form name="signup" action="login" method="post" class="col-md-6 col-md-offset-3" role="form">
+        <input type="email" class="form-control input-lg text-center" name="email" placeholder="Email">
+        <input type="password" class="form-control input-lg text-center" name="pword" placeholder="Password">
+        <input type="password" class="form-control input-lg text-center" name="cPword" placeholder="Confirm Password">
+        <!--<input type="submit" class="btn-primary btn-lg" name="submit" value="Sign Up">-->
+        <button id="singupButt" type="button" class="btn-primary btn-lg" name="submit">Sign Up</button>
+      </form>
+
+      <!-- Login Form -->
+      <form name="login" class="col-md-6 col-md-offset-3" role="form">
+        <input type="email" class="form-control input-lg text-center" name="email" placeholder="Email">
+        <input type="password" class="form-control input-lg text-center" name="pword" placeholder="Password">
+        <!-- <input type="submit" class="btn-primary btn-lg" name="submit" value="Login"> -->
+        <button id="loginButt" type="button" class="btn-primary btn-lg" name="submit">Login</button>
+      </form>
+
+      
+    
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="javascripts/signupLogin.js"></script>
+  </body>
+</html>

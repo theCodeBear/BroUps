@@ -3,6 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  margin-bottom: 1em;
+}
+
+input {
+  margin-bottom: 1em;
+}
+
 a {
   color: #00B7FF;
+}
+
+button {
+  outline: none;
+}
+
+.btn {
+  outline: none;
 }

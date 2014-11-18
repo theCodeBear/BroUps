@@ -1,0 +1,73 @@
+input[type="text"] {
+  /*margin: 1em 0 0 0;*/
+  /*width: 20em;*/
+}
+
+input[name="max"] {
+  font-size: 4em;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  height: 3em;
+  padding: 0;
+}
+
+#table {
+  display: none;
+}
+
+.btn-default:disabled {
+  /*color: blue;*/
+  /*background-color: transparent;*/
+}
+
+.btn:disabled {
+  /*color: blue;*/
+}
+
+button:disabled {
+  color: yellow;
+}
+
+.container {
+  text-align: center;
+}
+
+/*.form-group {
+  position: relative;
+  margin: auto 0;
+  text-align: center;
+}*/
+
+.btn-group {
+  margin-bottom: 1em;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:hover, .btn-primary:focus {
+  background-color: green;
+}
+
+.btn-primary:active {
+  background-color: darkgreen;
+}
+
+.fa-plus {
+  color: orange;
+}
+
+#add {
+  background-color: white;
+}
+
+#add.down {
+  background-color: red;
+  color: black;
+}
+
+#edit.down {
+  background-color: green;
+}
+
+/*#edit:after {
+  background-color: gray;
+}*/

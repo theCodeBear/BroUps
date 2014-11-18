@@ -1,0 +1,11 @@
+form[name='login'] {
+  display: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn-group {
+  margin-bottom: 1em;
+}
